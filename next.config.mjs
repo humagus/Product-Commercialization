@@ -1,8 +1,9 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   output: 'export',
-  basePath: '/Product-Commercialization',
-  assetPrefix: '/Product-Commercialization/',
+  trailingSlash: true,
+  basePath: '',
+  assetPrefix: undefined,
   images: {
     unoptimized: true,
     remotePatterns: [
