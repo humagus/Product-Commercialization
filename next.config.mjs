@@ -2,8 +2,7 @@
 const nextConfig = {
   output: 'export',
   trailingSlash: true,
-  basePath: '',
-  assetPrefix: undefined,
+  images: { unoptimized: true },
   images: {
     unoptimized: true,
     remotePatterns: [

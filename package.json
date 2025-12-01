@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "deploy": "next build && touch out/.nojekyll && npx gh-pages -d out --nojekyll"
+    "deploy": "next build && touch out/.nojekyll && gh-pages -d out -b gh-pages"
   },
   "dependencies": {
     "@iconify/react": "^6.0.2",
