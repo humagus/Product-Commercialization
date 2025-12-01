@@ -1,6 +1,10 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  output: 'export',
+  basePath: '/Product-Commercialization',
+  assetPrefix: '/Product-Commercialization/',
   images: {
+    unoptimized: true,
     remotePatterns: [
       {
         protocol: "https",
